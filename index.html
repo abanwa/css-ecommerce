@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Ecommerce</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="bx bxs-t-shirt"></i>adidas</a>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#new">New Arrival</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+
+      <!-- Icons -->
+      <div class="header-icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-search" id="search-icon"></i>
+        <i class="bx bx-cart-alt" id="cart-icon"></i>
+        <i class="bx bx-user" id="user-icon"></i>
+      </div>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="search" name="" id="" placeholder="Search Here..." />
+      </div>
+
+      <!-- Cart Box -->
+      <div class="cart">
+        <!-- Box 1 -->
+        <div class="box">
+          <img src="img/new1.jpg" alt="new1" />
+          <div class="text">
+            <h3>T-Shirt 14A</h3>
+            <span>$50.05</span>
+            <span>x1</span>
+          </div>
+          <i class="bx bxs-trash-alt"></i>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="box">
+          <img src="img/new2.jpg" alt="new2" />
+          <div class="text">
+            <h3>T-Shirt 14A</h3>
+            <span>$50.05</span>
+            <span>x1</span>
+          </div>
+          <i class="bx bxs-trash-alt"></i>
+        </div>
+
+        <h2>Total: $100.10</h2>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+
+      <!-- User -->
+      <div class="user">
+        <h2>Login Now</h2>
+        <input type="email" placeholder="Your Email..." />
+        <input type="password" placeholder="Password" />
+        <input type="submit" class="login-btn" value="Login" />
+        <p>Forget Password? <a href="#">Reset Now</a></p>
+        <p>Don't have account? <a href="#">Create One</a></p>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <span>Shop Now</span>
+        <h1>New Arrival of <br />Fresh Products</h1>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="home-img">
+        <img src="img/home4.jpg" alt="home" />
+      </div>
+    </section>
+
+    <!-- New Arrival -->
+    <section class="new" id="new">
+      <div class="heading">
+        <h1>New <span>Arrival</span></h1>
+      </div>
+      <div class="swiper new-arrival">
+        <div class="swiper-wrapper">
+          <!-- Box 1 -->
+          <div class="swiper-slide box">
+            <img src="img/new1.jpg" alt="new1" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="swiper-slide box">
+            <img src="img/new2.jpg" alt="new2" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="swiper-slide box">
+            <img src="img/new3.jpg" alt="new3" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 4 -->
+          <div class="swiper-slide box">
+            <img src="img/new4.jpg" alt="new4" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 5 -->
+          <div class="swiper-slide box">
+            <img src="img/new5.jpeg" alt="new5" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 6 -->
+          <div class="swiper-slide box">
+            <img src="img/new6.jpeg" alt="new6" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 7 -->
+          <div class="swiper-slide box">
+            <img src="img/new7.jpg" alt="new7" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 8 -->
+          <div class="swiper-slide box">
+            <img src="img/new8.jpg" alt="new8" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 9 -->
+          <div class="swiper-slide box">
+            <img src="img/new9.jpg" alt="new9" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Box 10 -->
+          <div class="swiper-slide box">
+            <img src="img/new10.jpg" alt="new10" />
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+      <div class="heading">
+        <h1>Our <span>Products</span></h1>
+      </div>
+      <div class="product-container">
+        <!-- Box 1 -->
+        <div class="box">
+          <img src="img/p1.jpg" alt="p1" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="box">
+          <img src="img/p2.jpg" alt="p2" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="box">
+          <img src="img/p3.jpg" alt="p3" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 4 -->
+        <div class="box">
+          <img src="img/p4.jpg" alt="p4" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 5 -->
+        <div class="box">
+          <img src="img/p5.jpg" alt="p5" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 6 -->
+        <div class="box">
+          <img src="img/p6.jpg" alt="p6" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 7 -->
+        <div class="box">
+          <img src="img/p7.jpg" alt="p7" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 8 -->
+        <div class="box">
+          <img src="img/p8.jpg" alt="p8" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 9 -->
+        <div class="box">
+          <img src="img/p9.jpg" alt="p9" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+
+        <!-- Box 10 -->
+        <div class="box">
+          <img src="img/p10.jpg" alt="p10" />
+          <div class="content">
+            <h2>T-Shirt 14A</h2>
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section class="reviews" id="reviews">
+      <div class="heading">
+        <h1>Our <span>Customers</span></h1>
+      </div>
+      <div class="reviews-container">
+        <!-- Box 1 -->
+        <div class="box">
+          <img src="img/r1.jpg" alt="r1" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            adipisci placeat rerum nemo. Recusandae, nobis sed voluptatum
+            corrupti suscipit dolore.
+          </p>
+          <h2>Will Smith</h2>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="box">
+          <img src="img/r2.jpg" alt="r2" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            adipisci placeat rerum nemo. Recusandae, nobis sed voluptatum
+            corrupti suscipit dolore.
+          </p>
+          <h2>Will Smith</h2>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="box">
+          <img src="img/r3.jpg" alt="r3" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            adipisci placeat rerum nemo. Recusandae, nobis sed voluptatum
+            corrupti suscipit dolore.
+          </p>
+          <h2>Will Smith</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="footer-box">
+        <h2>addidas</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic odit
+          cupiditate at, cumque placeat quibusdam harum consectetur eligendi.
+          Dignissimos corrupti possimus praesentium fuga adipisci consequatur.
+        </p>
+        <div class="social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Support</h3>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Help & Support</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Terms Of Use</a></li>
+        <li><a href="#">FAQ</a></li>
+      </div>
+      <div class="footer-box">
+        <h3>Our Branches</h3>
+        <li><a href="#">Pakistan</a></li>
+        <li><a href="#">Japan</a></li>
+        <li><a href="#">India</a></li>
+        <li><a href="#">United States</a></li>
+        <li><a href="#">Canada</a></li>
+      </div>
+      <div class="footer-box">
+        <h3>Payment Method</h3>
+        <div class="payment">
+          <img src="img/visa.jpg" alt="visa" />
+          <img src="img/mastercard.png" alt="mastercard" />
+          <img src="img/paypal.jpg" alt="paypal" />
+          <img src="img/american-express.png" alt="american-express" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&copy; Abanwa Chinaza All Right Reserved.</p>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Link to JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
